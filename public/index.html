@@ -10,13 +10,17 @@
 <body>
     <h1>Stock Manager</h1>
 
-    <form action="/">
-        <input type="text" placeholder="Barcode">
-        <input type="text" placeholder="Product name">
+    <form id="form">
+        <input type="text" placeholder="Código de barras" id="input-code">
+        <input type="text" placeholder="Nome do produto" id="input-name">
+        <input placeholder="Data de vencimento" class="textbox-n" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+        <input type="submit" value="Adicionar" id="submit" style="cursor: pointer;">
     </form>
 
     <ul class="container">
-        <li>Product come here</li>
+        <li>Produtos cadastrados</li>
     </ul>
+
+    <script src="script.js"></script>
 </body>
 </html>
