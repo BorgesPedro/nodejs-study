@@ -11,15 +11,19 @@ function addProduto() {
     const trashX = document.createElement("span")
     const pText = document.createElement("p")
     const pCode = document.createElement("p")
+    const pDate = document.createElement("p")
     const code = document.createTextNode(inputCode.value)
     const text = document.createTextNode(inputName.value)
+    const date = document.createTextNode(inputDate.value)
     trashX.innerHTML = "&#10006;"
     trashX.onclick = () => removeProduto(trashX)
 
     pCode.append(code)
     pText.append(text)
+    pDate.append(date)
     li.append(pCode)
     li.append(pText)
+    li.append(pDate)
     li.append(trashX)
     ul.appendChild(li)
 
@@ -38,7 +42,11 @@ form.addEventListener("submit", function(event){
 
     if(inputCode.value === '' || isNaN(inputCode.value) || inputName.value === '' || inputDate.value == '')
         alert("Preencha todos os campos")
-        else
+        else{
         addProduto()
+        inputCode.value = ''
+        inputName.value = ''
+        inputDate.value = ''
+        }
 
 })
