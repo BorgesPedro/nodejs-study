@@ -61,7 +61,7 @@ li{
 p{
     overflow: scroll;
     margin-right: 5px;
-    height: 80px;
+    height: 65px;
 }
 p:first-child{
     color: #058b00;
@@ -70,10 +70,6 @@ p:first-child{
 p:nth-child(2){
     width: 55%;
 }
-a{
-    display: block;
-    color: #555555;
-}
 a:hover{
     text-decoration: underline;
     font-weight: bold;
@@ -81,4 +77,8 @@ a:hover{
 li span{
     cursor: pointer;
     color: #f03232;
+}
+.span{
+    color: #242424;
+    cursor: default;
 }
