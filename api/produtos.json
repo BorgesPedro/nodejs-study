@@ -1,0 +1,14 @@
+{
+    "produtos": [
+        {
+            "codigo": "Extrato de tomate",
+            "nome": "458796587458",
+            "validade": "17/09/2021"
+        },
+        {
+            "codigo": "Ração Pequeno Porte",
+            "nome": "4587965874584587",
+            "validade": "25/01/2022"  
+        }
+    ]
+}
