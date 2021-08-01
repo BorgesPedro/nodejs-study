@@ -47,6 +47,8 @@ form.addEventListener("submit", function(event){
         inputCode.value = ''
         inputName.value = ''
         inputDate.value = ''
+        inputCode.focus()
+        inputCode.select()
         }
-
+        
 })
