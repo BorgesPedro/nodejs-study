@@ -27,6 +27,6 @@ FRONT-END:
 - CSS
 - Javascript
 
-![.gitub/Untitled.png](Estudos%20de%20NodeJS%20%F0%9F%9A%80%20eb286ed2959c4ac3b52c3b9e3647423e/Untitled.png)
+![.github/Untitled.png](.github/Untitled.png)
 
-![.github/Untitled%201.png](Estudos%20de%20NodeJS%20%F0%9F%9A%80%20eb286ed2959c4ac3b52c3b9e3647423e/Untitled%201.png)
+![.github/Untitled%201.png](.github/Untitled%201.png)
