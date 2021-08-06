@@ -1,24 +1,9 @@
 {
   "produtos": [
     {
-      "codigo": "4587965874584587",
-      "nome": "Ração Pequeno Porte",
-      "date": "25/01/2022"
-    },
-    {
-      "codigo": "7896587458",
-      "nome": "extrato",
-      "date": "17082003"
-    },
-    {
-      "codigo": "7896587999",
-      "nome": "arroz",
-      "date": "17082003"
-    },
-    {
-      "codigo": "7896587888",
-      "nome": "cha",
-      "date": "17082003"
+      "codigo": "78987458999",
+      "nome": "Extrato",
+      "date": "2026-05-17"
     }
   ]
 }

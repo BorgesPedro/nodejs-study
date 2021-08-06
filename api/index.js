@@ -25,6 +25,10 @@ http.createServer((req,res) => {
     const del = url.searchParams.get('del')
 
 
+    res.writeHead(200, {
+        'Access-Control-Allow-Origin': '*'
+    })
+
     if(!codigo || !nome || !data)
         return res.end(JSON.stringify(data))
 
